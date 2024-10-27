@@ -1,0 +1,153 @@
+body {
+    background-color: #2b2f33;
+    font-family: "Comic Sans MS", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2b2f33;
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+.container {
+    padding: 20px;
+    padding-bottom: 60px;
+}
+
+
+
+.title {
+    font-size: 36px;
+    color: #00bcd4;
+    margin-bottom: 30px;
+    font-family: "Comic Sans MS";
+}
+
+
+.button1 {
+    background-color: #00bcd4;
+    color: white;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    width: auto;
+    margin: 5px 0;
+    transition: background-color 0.3s, transform 0.3s;
+    text-align: right;
+    margin-left: auto;
+}
+
+.button1:hover {
+    background-color: #0097a7;
+    transform: translateY(-3px);
+}
+
+
+.button3 {
+    background-color: #00bcd4;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.button3:hover {
+    background-color: #0097a7;
+    transform: translateY(-3px);
+}
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+
+.box {
+    width: calc(33.33% - 20px);
+    padding: 10px;
+    margin: 8px;
+    border: 1px solid #444;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    background-color: #2b2f33;
+    transition: transform 0.3s, box-shadow 0.3s;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS";
+}
+
+
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 188, 212, 0.7);
+}
+
+
+
+.box img {
+    width: 60%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+
+
+.box h3 {
+    margin-top: 10px;
+    color: #00bcd4;
+
+}
+.box h2 {
+    margin-top: 10px;
+    color: #00bcd4;
+
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.h1 {
+    text-align: center;
+    color: #00bcd4;
+    font-family: "Comic Sans MS";
+    font-size: 36px;
+    margin: 40px 0;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.sitografia-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
