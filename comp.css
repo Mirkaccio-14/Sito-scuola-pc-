@@ -155,4 +155,34 @@ h1 {
     display: inline-block;
 }
 
+.button12 {
+    background-color: black;
+    color: red;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button13 {
+    background-color: black;
+    color: ghostwhite;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button14 {
+    background-color: black;
+    color: lawngreen;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
 
