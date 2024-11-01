@@ -184,5 +184,42 @@ h1 {
     text-decoration: none;
     display: inline-block;
 }
+.button15 {
+    background-color: ghostwhite;
+    color:#5E4B8A ;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
 
+.button16 {
+    background-color: ghostwhite;
+    color: #8B4513;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
 
+.button17 {
+    background-color: ghostwhite;
+    color:#2C2C2C. ;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button18 {
+    background-color: ghostwhite;
+    color: #4A4A4A;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
